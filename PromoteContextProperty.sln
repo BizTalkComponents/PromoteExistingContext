@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{DBAEB704-2126-4B6F-91E5-69AD4EB279F3}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoteContextProperty", "src\PromoteContextProperty\PromoteContextProperty.csproj", "{D3CC4B76-F007-4D85-B133-1A07CF3C3EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoteContextProperty.UnitTest", "tests\PromoteContextProperty.UnitTest\PromoteContextProperty.UnitTest.csproj", "{C39DB3B5-2701-4294-BAEC-129CA8C73F16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3CC4B76-F007-4D85-B133-1A07CF3C3EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CC4B76-F007-4D85-B133-1A07CF3C3EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CC4B76-F007-4D85-B133-1A07CF3C3EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CC4B76-F007-4D85-B133-1A07CF3C3EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39DB3B5-2701-4294-BAEC-129CA8C73F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39DB3B5-2701-4294-BAEC-129CA8C73F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39DB3B5-2701-4294-BAEC-129CA8C73F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39DB3B5-2701-4294-BAEC-129CA8C73F16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
