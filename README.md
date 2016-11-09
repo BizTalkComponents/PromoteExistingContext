@@ -1,5 +1,5 @@
 ##Description
-Promotes a a context property. This enables it to be used for routing and many other things (https://sandroaspbiztalkblog.wordpress.com/2009/03/28/distinguished-fields-vs-promoted-properties/).
+Promotes a a context property. This enables the property for use in routing and more (https://sandroaspbiztalkblog.wordpress.com/2009/03/28/distinguished-fields-vs-promoted-properties/).
 
 | Parameter          | Description                                             | Type | Validation                        |
 | -------------------|---------------------------------------------------------|------|-----------------------------------|
